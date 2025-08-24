@@ -1,0 +1,33 @@
+server:
+  port: ${PORT}
+
+# local
+#  datasource:
+#    password: root
+#    url: jdbc:mysql://localhost:3306/prioriti_db
+#    username: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+
+spring:
+  application:
+    name: Prioriti
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  # SSL is required for Neon
+  datasource-properties:
+    sslmode: require
+
+secretjwtString: f56d5524f9d12ebb3560ef1611e654c7a820de29
+
+
+
