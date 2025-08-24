@@ -1,35 +1,35 @@
-# ✅ Prioriti
+# Prioriti
 
 Prioriti is a **task management app** built with a **Spring Boot backend** and a **Vue.js frontend**.  
 It helps you **create, organize, and track tasks** with a clean UI and robust backend — perfect for staying productive.
 
 ---
 
-## ✨ Features
+## Features
 
--   🔐 **Authentication**
+-   **Authentication**
 
     -   User signup & login
     -   Secure API access with JWT
 
--   📝 **Task Management**
+-   **Task Management**
 
     -   Create, update, delete tasks
     -   Mark tasks as complete
 
--   📅 **Task Tracking**
+-   **Task Tracking**
 
     -   View all tasks in one place
     -   Filter tasks by status or category
     -   Persistent storage with PostgreSQL
 
--   📱 **Responsive UI**
+-   **Responsive UI**
     -   Built with Vue.js
     -   Optimized for desktop & mobile
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend**
 
